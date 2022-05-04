@@ -26,10 +26,12 @@ body {
    color: #000000;
    text-decoration: none;
 }
-.logo-color {
+.logo-web {
    color: var(--accent-color);
 }
-
+.logo-studio {
+   color: var(--main-color);
+}
 .list {
    list-style: none; 
 }
@@ -40,11 +42,7 @@ body {
    letter-spacing: 0.02em;
    color: var(--text-color);
    text-decoration: none;
-}
-.navigations:hover,
-.navigations:focus {
-   color: var(--accent-color);
-}
+}  
 .contact {
    color: var(--second-text-color);
    font-weight: 500;
@@ -53,7 +51,24 @@ body {
    letter-spacing: 0.02em;
    text-decoration: none;
 }
+.navigations:hover,
+.navigations:focus,
 .contact:focus,
 .contact:hover {
    color: var(--accent-color);
+}
+.footer {
+   background-color: var(--second-theme-color);
+}
+.footer-contact {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
+   text-decoration: none;
+}
+.footer .footer-physical {
+   color: var(--main-color);
 }
