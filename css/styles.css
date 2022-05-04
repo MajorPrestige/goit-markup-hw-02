@@ -89,6 +89,9 @@ body {
    line-height: 1.17;
    text-align: center;
 }
+.works {
+   text-align: center;
+}
 .worker {
    background-color: var(--theme-color);
    font-size: 16px;
