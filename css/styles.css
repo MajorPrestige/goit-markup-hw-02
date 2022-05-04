@@ -78,6 +78,7 @@ body {
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
+   cursor: pointer;
    color: var(--main-color);
 }
 .hide {
@@ -109,8 +110,38 @@ body {
    font-weight: 400;
    color: var(--second-text-color);
 }
-
-
+.project-button:focus,
+.project-button:hover {
+   background-color: var(--accent-color);
+   color: var(--main-color);
+}
+.project-button {
+   background-color: var(--theme-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+}
+.project-link {
+   text-decoration: none;
+   color: var(--text-color);
+}
+.project-title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   text-decoration: none;
+}
+.project-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.03em;
+   color: var(--second-text-color);
+}
 
 
 
