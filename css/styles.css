@@ -57,6 +57,65 @@ body {
 .contact:hover {
    color: var(--accent-color);
 }
+.banner {
+   background-color: var(--second-theme-color);
+}
+.banner-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--main-color);
+}
+.banner-button {
+   background-color: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   color: var(--main-color);
+}
+.hide {
+   font-size: 0;
+}
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+.worker {
+   background-color: var(--theme-color);
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+.worker-card {
+   background-color: var(--main-color);
+}
+.worker-name {
+   font-weight: 500;
+}
+.worker-position {
+   font-weight: 400;
+   color: var(--second-text-color);
+}
+
+
+
+
+
+
+
+
+
+
 .footer {
    background-color: var(--second-theme-color);
 }
