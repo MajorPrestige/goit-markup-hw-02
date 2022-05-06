@@ -20,7 +20,19 @@ body {
    background-color: var(--main-color);
    font-size: 14px;
    letter-spacing: 0.03em;
-
+}
+.list {
+   list-style: none;
+}
+.link {
+text-decoration: none;
+color: var(--text-color);
+}
+.section-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center; 
 }
 .logo {
    font-family: 'Raleway', sans-serif;
@@ -28,7 +40,6 @@ body {
    font-size: 26px;
    line-height: 1.19;
    color: #000000;
-   text-decoration: none;
 }
 .logo-web {
    color: var(--accent-color);
@@ -36,16 +47,12 @@ body {
 .logo-studio {
    color: var(--main-color);
 }
-.list {
-   list-style: none; 
-}
 .nav-link,
 .contact {
    font-weight: 500;
    line-height: 1.14;
    letter-spacing: 0.02em;
    color: var(--text-color);
-   text-decoration: none;
 }  
 .contact {
    color: var(--second-text-color);
@@ -53,10 +60,8 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contact:focus,
-.contact:hover {
-   color: var(--accent-color);
-}
-.navigations:current(nav) {
+.contact:hover,
+.current {
    color: var(--accent-color);
 }
 .banner {
@@ -97,20 +102,10 @@ body {
    line-height: 1.71;
    color: var(--second-text-color);
 }
-.title {
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 1.17;
-   text-align: center;
-}
-.works {
-   text-align: center;
-}
 .worker {
    background-color: var(--theme-color);
    font-size: 16px;
    line-height: 1.19;
-   text-align: center;
 }
 .worker-card {
    background-color: var(--main-color);
@@ -124,21 +119,19 @@ body {
    color: var(--second-text-color);
 }
 .project-button:focus,
-.project-button:hover {
+.project-button:hover,
+.project-button.active {
    background-color: var(--accent-color);
    color: var(--main-color);
 }
 .project-button {
    background-color: var(--theme-color);
+   color: var(--text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
    text-align: center;
    cursor: pointer;
-}
-.project-link {
-   text-decoration: none;
-   color: var(--text-color);
 }
 .project-title {
    font-weight: 700;
@@ -160,7 +153,6 @@ body {
    line-height: 1.71;
    color: rgba(255, 255, 255, 0.6);
    font-style: normal;
-   text-decoration: none;
 }
 .footer-contact.footer-physical {
    color: var(--main-color);
