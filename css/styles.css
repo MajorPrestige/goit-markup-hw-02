@@ -25,8 +25,8 @@ body {
    list-style: none;
 }
 .link {
-text-decoration: none;
-color: var(--text-color);
+   text-decoration: none;
+   color: var(--text-color);
 }
 .section-title {
    font-weight: 700;
